@@ -14,7 +14,10 @@ createBtn.addEventListener("click", () => {
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
     input.value = "";
+  }else{
+    alert("Lütfen geçerli bir sayı giriniz (1-100));
   }
+  
 });
 
 destroyBtn.addEventListener("click", destroyBoxes);

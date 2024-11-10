@@ -15,7 +15,7 @@ createBtn.addEventListener("click", () => {
     createBoxes(amount);
     input.value = "";
   }else{
-    alert("Lütfen geçerli bir sayı giriniz (1-100));
+    alert("Lütfen geçerli bir sayı giriniz (1-100)");
   }
   
 });
